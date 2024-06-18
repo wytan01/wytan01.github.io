@@ -3420,7 +3420,7 @@ input, select, textarea {
 		width: 4em;
 	}
 
-		#intro .logo:before {
+		#intro .logo::before {
 			background-position: top left;
 			background-repeat: no-repeat;
 			background-size: 100% 100%;
