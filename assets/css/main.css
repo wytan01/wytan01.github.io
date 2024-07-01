@@ -3251,19 +3251,35 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #fadcfd;
+			background-color: #E9FEEB;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #fadcfd;
+			background-color: #E9FEEB;
 		}
 
 		.wrapper.style3 {
-			background-color: #e4f8ff;
+			background-color: #E9FAFE;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #e4f8ff;
+			background-color: #E9FAFE;
+		}
+
+		.wrapper.style4 {
+			background-color: #E9EFFE;
+		}
+
+		.wrapper.style4-alt {
+			background-color: #E9EFFE;
+		}
+
+		.wrapper.style5 {
+			background-color: #FEEBE9;
+		}
+
+		.wrapper.style5-alt {
+			background-color: #FEEBE9;
 		}
 
 		.wrapper.fullscreen {
@@ -3552,10 +3568,10 @@ input, select, textarea {
 			-webkit-flex-direction: column;
 			-ms-flex-direction: column;
 			flex-direction: column;
-			-moz-justify-content: center;
-			-webkit-justify-content: center;
-			-ms-justify-content: center;
-			justify-content: center;
+			-moz-justify-content: left;
+			-webkit-justify-content: left;
+			-ms-justify-content: left;
+			justify-content: left;
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
@@ -3577,6 +3593,17 @@ input, select, textarea {
 			list-style: none;
 			padding: 0;
 		}
+			#sidebar > .inner > .home {
+				color: white;
+				display: block;
+				font-weight: bold;
+				letter-spacing: 0.25em;
+				line-height: 1.75;
+				position: relative;
+				text-transform: uppercase;
+				font-size: 1.25em;
+				padding: 0.5em 15em 0.5em 2em;
+			}
 
 			#sidebar nav > ul > li {
 				-moz-transform: translateY(0);
