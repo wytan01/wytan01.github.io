@@ -193,6 +193,10 @@ input, select, textarea {
 			text-decoration: none;
 		}
 
+	a:hover {
+		text-decoration: underline;
+	}
+
 	h1 {
 		font-size: 2.75em;
 	}
@@ -226,11 +230,11 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.1em;
+		font-size: 1.3em;
 	}
 
 	h4 {
-		font-size: 1em;
+		font-size: 1.1em;
 	}
 
 	h5 {
@@ -2001,7 +2005,7 @@ input, select, textarea {
 	}
 
 		.features section {
-			padding: 3.5em 3em 1em 7em ;
+			padding: 2.5em 3em 1em 7em ;
 			width: 50%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
@@ -2027,7 +2031,7 @@ input, select, textarea {
 				-moz-transform: scale(1);
 				-webkit-transform: scale(1);
 				-ms-transform: scale(1);
-				transform: scale(1);
+				transform: scale(1.1);
 				position: absolute;
 				left: 3em;
 				top: 3em;
